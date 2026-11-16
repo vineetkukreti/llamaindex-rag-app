@@ -1,0 +1,33 @@
+# Env / secrets
+.env
+.env.*
+!.env.example
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+# Logs
+*.log
+logs/
+# Tests
+test-results/
+playwright-report/
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Local agent settings
+.claude/
+
+# Vector store / index
+storage/
+# Personal documents (PII)
+data/*.pdf
+CLAUDE.md

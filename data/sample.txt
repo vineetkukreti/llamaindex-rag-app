@@ -1,0 +1,9 @@
+LlamaIndex is a data framework for building LLM-powered applications. It provides tools to ingest, structure, and access private or domain-specific data. The core idea behind LlamaIndex is Retrieval-Augmented Generation (RAG), where relevant context is retrieved from a knowledge base and provided to the LLM to generate accurate answers.
+
+Key components of LlamaIndex include:
+- Document Loaders: Read data from various sources like PDFs, databases, and APIs.
+- Indexes: Organize data into structures optimized for querying, such as vector stores.
+- Query Engines: Interface for asking natural language questions over your data.
+- Agents: Autonomous reasoning tools that can use multiple data sources and tools.
+
+LlamaIndex supports multiple LLM providers including OpenAI, Anthropic, Cohere, and local models via Ollama. It also supports various vector stores like Chroma, Pinecone, Weaviate, and Qdrant for scalable retrieval.

@@ -1,0 +1,8 @@
+llama-index>=0.12.0
+llama-index-llms-openai
+llama-index-embeddings-openai
+llama-index-readers-file
+fastapi
+uvicorn[standard]
+python-dotenv
+python-multipart
